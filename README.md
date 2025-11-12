@@ -1,4 +1,4 @@
-# X402 Payment MCP Server
+# AI42-MCP X402 Payment Server
 
 An MCP server that automatically handles web requests with X402 payments. Fetches data from any URL and seamlessly processes payments when required (402 status). Includes payment tracking, balance checking, and spending limits.
 
