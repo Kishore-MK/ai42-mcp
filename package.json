@@ -1,6 +1,6 @@
 {
   "name": "@ai42/mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "X402 Payment MCP Server for automatic web request payments",
   "main": "dist/index.js",
