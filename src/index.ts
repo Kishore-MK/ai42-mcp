@@ -1,3 +1,6 @@
+#!/usr/bin/env node
+
+
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { createSigner } from "x402-fetch";
@@ -5,7 +8,7 @@ import { z } from "zod";
 import { ServerPaymentClient } from "./payment.js";
 import { Connection, LAMPORTS_PER_SOL, Keypair } from "@solana/web3.js";
 import bs58 from 'bs58';
-// Payment history storage (in-memory)
+
 interface PaymentRecord {
   url: string;
   amount: number;

@@ -1,13 +1,40 @@
 {
-  "name": "ai42-mcp",
+  "name": "@ai42/mcp",
+  "version": "0.1.0",
   "type": "module",
+  "description": "X402 Payment MCP Server for automatic web request payments",
+  "main": "dist/index.js",
+  "bin": {
+    "ai42-mcp": "./dist/index.js"
+  },
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js"
   },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "url": "https://github.com/Kishore-MK/ai42-mcp"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "mcp",
+    "x402",
+    "payment",
+    "solana",
+    "web3"
+  ],
+  "author": "keyaru",
+  "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.17.2",
+    "@solana/web3.js": "^1.98.4",
     "bs58": "^6.0.0",
     "dotenv": "^16.4.5",
     "x402-fetch": "^0.7.0",

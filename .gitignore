@@ -26,3 +26,5 @@ lerna-debug.log*
 dist/
 # misc
 .DS_Store
+
+.npmignore
