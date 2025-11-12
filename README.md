@@ -18,16 +18,16 @@
 
 AI42 MCP Server enables Claude Desktop to automatically handle web requests with X402 payments. Fetch data from any URL and seamlessly process cryptocurrency payments when required (402 status). Includes payment tracking, balance checking, and spending limits.
 
-### ✨ Features
+### Features
 
-- 🌐 **Automatic Payment Handling**: Transparent X402 payment processing on 402 responses
-- 🔄 **GET & POST Support**: Full HTTP method support for API interactions
-- 💰 **Payment Management**: Track history, check balance, set spending limits
-- ⚡ **Solana Integration**: Built on Solana devnet/mainnet
-- 🔒 **Type-safe**: Full TypeScript support
-- 🎯 **Zero Configuration**: Works out of the box with Claude Desktop
+-  **Automatic Payment Handling**: Transparent X402 payment processing on 402 responses
+-  **GET & POST Support**: Full HTTP method support for API interactions
+-  **Payment Management**: Track history, check balance, set spending limits
+-  **Solana Integration**: Built on Solana devnet/mainnet
+-  **Type-safe**: Full TypeScript support
+-  **Zero Configuration**: Works out of the box with Claude Desktop
 
-### 🛠️ Available Tools
+###  Available Tools
 
 | Tool                  | Description                                      |
 | --------------------- | ------------------------------------------------ |
